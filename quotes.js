@@ -317,12 +317,86 @@ let quotes = [
     source_link: "http://www.paulgraham.com/ineq.html",
     content: "You can't prevent great variations in wealth without preventing people from getting rich, and you can't do that without preventing them from starting startups.\n\nSo let's be clear about that. Eliminating great variations in wealth would mean eliminating startups. And that doesn't seem a wise move. Especially since it would only mean you eliminated startups in your own country. Ambitious people already move halfway around the world to further their careers, and startups can operate from anywhere nowadays. So if you made it impossible to get rich by creating wealth in your country, people who wanted to do that would just leave and do it somewhere else. Which would certainly get you a lower Gini coefficient, along with a lesson in being careful what you ask for.",
   },
-  // {
-  //   title: "",
-  //   source_name: "",
-  //   source_link: "",
-  //   content: "",
-  // },
+  {
+    title: "Write Something Important",
+    source_name: "Paul Graham - How To Write Usefully",
+    source_link: "http://www.paulgraham.com/useful.html",
+    content: "There's a trick for getting importance too. It's like the trick I suggest to young founders for getting startup ideas: to make something you yourself want. You can use yourself as a proxy for the reader. The reader is not completely unlike you, so if you write about topics that seem important to you, they'll probably seem important to a significant number of readers as well.\n\nImportance has two factors. It's the number of people something matters to, times how much it matters to them. Which means of course that it's not a rectangle, but a sort of ragged comb, like a Riemann sum.",
+  },
+  {
+    title: "Write Something Novel",
+    source_name: "Paul Graham - How To Write Usefully",
+    source_link: "http://www.paulgraham.com/useful.html",
+    content: "The way to get novelty is to write about topics you've thought about a lot. Then you can use yourself as a proxy for the reader in this department too. Anything you notice that surprises you, who've thought about the topic a lot, will probably also surprise a significant number of readers. And here, as with correctness and importance, you can use the Morris technique to ensure that you will. If you don't learn anything from writing an essay, don't publish it.",
+  },
+  {
+    title: "Write Something Correct",
+    source_name: "Paul Graham - How To Write Usefully",
+    source_link: "http://www.paulgraham.com/useful.html",
+    content: "An essay should be useful. To start with, that means it should be correct. But it's not enough merely to be correct. It's easy to make a statement correct by making it vague. Though no doubt correct, such statements tell the reader nothing. Useful writing makes claims that are as strong as they can be made without becoming false.\n\nFor example, it's more useful to say that Pike's Peak is near the middle of Colorado than merely somewhere in Colorado. But if I say it's in the exact middle of Colorado, I've now gone too far, because it's a bit east of the middle.\n\nPrecision and correctness are like opposing forces. It's easy to satisfy one if you ignore the other. The converse of vaporous academic writing is the bold, but false, rhetoric of demagogues. Useful writing is bold, but true.",
+  },
+  {
+    title: "Write Something Strong",
+    source_name: "Paul Graham - How To Write Usefully",
+    source_link: "http://www.paulgraham.com/useful.html",
+    content: "The fourth component of useful writing, strength, comes from two things: thinking well, and the skillful use of qualification. These two counterbalance each other, like the accelerator and clutch in a car with a manual transmission. As you try to refine the expression of an idea, you adjust the qualification accordingly. Something you're sure of, you can state baldly with no qualification at all, as I did the four components of useful writing. Whereas points that seem dubious have to be held at arm's length with perhapses.\n\nAs you refine an idea, you're pushing in the direction of less qualification. But you can rarely get it down to zero. Sometimes you don't even want to, if it's a side point and a fully refined version would be too long.",
+  },
+  {
+    title: "Write Something Simply",
+    source_name: "Paul Graham - How To Write Usefully",
+    source_link: "http://www.paulgraham.com/useful.html",
+    content: "There's one other quality I aim for in essays: to say things as simply as possible. But I don't think this is a component of usefulness. It's more a matter of consideration for the reader. And it's a practical aid in getting things right; a mistake is more obvious when expressed in simple language. But I'll admit that the main reason I write simply is not for the reader's sake or because it helps get things right, but because it bothers me to use more or fancier words than I need to. It seems inelegant, like a program that's too long.",
+  },
+  {
+    title: "Life Is Short",
+    source_name: "Paul Graham - Life Is Short",
+    source_link: "http://www.paulgraham.com/vb.html",
+    content: "When I ask myself what I've found life is too short for, the word that pops into my head is 'bullshit.' I realize that answer is somewhat tautological. It's almost the definition of bullshit that it's the stuff that life is too short for. And yet bullshit does have a distinctive character. There's something fake about it. It's the junk food of experience.",
+  },
+  {
+    title: "Things That Do And Don't Matter",
+    source_name: "Paul Graham - Life Is Short",
+    source_link: "http://www.paulgraham.com/vb.html",
+    content: "One heuristic for distinguishing stuff that matters is to ask yourself whether you'll care about it in the future. Fake stuff that matters usually has a sharp peak of seeming to matter. That's how it tricks you. The area under the curve is small, but its shape jabs into your consciousness like a pin.\n\n",
+  },
+  {
+    title: "Life Is Short - Don't Wait",
+    source_name: "Paul Graham - Life Is Short",
+    source_link: "http://www.paulgraham.com/vb.html",
+    content: "The usual way to avoid being taken by surprise by something is to be consciously aware of it. Back when life was more precarious, people used to be aware of death to a degree that would now seem a bit morbid. I'm not sure why, but it doesn't seem the right answer to be constantly reminding oneself of the grim reaper hovering at everyone's shoulder. Perhaps a better solution is to look at the problem from the other end. Cultivate a habit of impatience about the things you most want to do. Don't wait before climbing that mountain or writing that book or visiting your mother. You don't need to be constantly reminding yourself why you shouldn't wait. Just don't wait.",
+  },
+  {
+    title: "The Problem With Tests",
+    source_name: "Paul Graham - The Lesson To Unlearn",
+    source_link: "http://www.paulgraham.com/lesson.html",
+    content: "Getting a good grade in a class on x is so different from learning a lot about x that you have to choose one or the other, and you can't blame students if they choose grades. Everyone judges them by their grades — graduate programs, employers, scholarships, even their own parents.",
+  },
+  {
+    title: "Why Tests Are So Bad",
+    source_name: "Paul Graham - The Lesson To Unlearn",
+    source_link: "http://www.paulgraham.com/lesson.html",
+    content: "Why are tests so bad? More precisely, why are they so hackable? Any experienced programmer could answer that. How hackable is software whose author hasn't paid any attention to preventing it from being hacked? Usually it's as porous as a colander.\n\nHackable is the default for any test imposed by an authority. The reason the tests you're given are so consistently bad — so consistently far from measuring what they're supposed to measure — is simply that the people creating them haven't made much effort to prevent them from being hacked.",
+  },
+  {
+    title: "Hacking Bad Tests",
+    source_name: "Paul Graham - The Lesson To Unlearn",
+    source_link: "http://www.paulgraham.com/lesson.html",
+    content: "But wasting your time is not the worst thing the educational system does to you. The worst thing it does is to train you that the way to win is by hacking bad tests. This is a much subtler problem that I didn't recognize until I saw it happening to other people.\n\nWhen I started advising startup founders at Y Combinator, especially young ones, I was puzzled by the way they always seemed to make things overcomplicated. How, they would ask, do you raise money? What's the trick for making venture capitalists want to invest in you? The best way to make VCs want to invest in you, I would explain, is to actually be a good investment. Even if you could trick VCs into investing in a bad startup, you'd be tricking yourselves too. You're investing time in the same company you're asking them to invest money in. If it's not a good investment, why are you even doing it?\n\nWhy did founders tie themselves in knots doing the wrong things when the answer was right in front of them? Because that was what they'd been trained to do. Their education had taught them that the way to win was to hack the test. And without even telling them they were being trained to do this. The younger ones, the recent graduates, had never faced a non-artificial test. They thought this was just how the world worked: that the first thing you did, when facing any kind of challenge, was to figure out what the trick was for hacking the test. That's why the conversation would always start with how to raise money, because that read as the test. It came at the end of YC. It had numbers attached to it, and higher numbers seemed to be better. It must be the test.",
+  },
+  {
+    title: "Separation Of Work And Authority",
+    source_name: "Paul Graham - The Lesson To Unlearn",
+    source_link: "http://www.paulgraham.com/lesson.html",
+    content: "Hacking bad tests is becoming less important as the link between work and authority erodes. The erosion of that link is one of the most important trends happening now, and we see its effects in almost every kind of work people do. Startups are one of the most visible examples, but we see much the same thing in writing. Writers no longer have to submit to publishers and editors to reach readers; now they can go direct.",
+  },
+  /*
+  {
+    title: "",
+    source_name: "",
+    source_link: "",
+    content: "",
+  },
+  */
 ];
 
 export default quotes;
